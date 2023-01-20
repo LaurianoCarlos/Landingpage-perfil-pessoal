@@ -1,0 +1,57 @@
+body{
+    margin: 0%;
+    padding: 0%;
+ background-image: url("images/pexels-seppe-machielsen-14011035.jpg");
+ background-size: cover;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.lauriano{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.icones{
+    width: 60px;
+    margin: 10px 8px;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Orbitron';
+    margin-top: 80px;
+}
+h2{
+    font-size: 30px;
+    
+}
+.informacoes{
+    text-align: center;
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+.sobre-mim{
+    border: 4px solid white;
+    color: #05c3c4;
+    padding: 10px;
+    font-size: 20px;
+    font-weight:bolder;
+    text-decoration: none;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    font-family: 'Alegreya', serif;
+    
+}
+.sobre-mim:hover{
+    background-color:#04555bc2;
+    color: white;
+    border-color: #05c3c4;
+}

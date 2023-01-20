@@ -1,0 +1,21 @@
+@media screen and (max-width:920px){
+    main{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    img{
+        width: 200px;
+    }
+    .informacoes{
+        margin-top: -50px;
+    }
+    .contato{
+        margin-top: -15px;
+      margin-bottom: 30px;
+    }
+    .sobre-mim{
+        align-self: center;
+        width: 50%;
+    }
+}
